@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.label {
+  margin: 1em auto;
+  border: 2px solid black;
+  width: 280px;
+  padding: 0 0.5em;
+}
