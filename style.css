@@ -16,3 +16,30 @@ body {
   width: 280px;
   padding: 0 0.5em;
 }
+
+header h1 {
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+h1,
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+header {
+  display: block;
+}
+
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent: -8px;
+}
