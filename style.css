@@ -43,3 +43,26 @@ header {
   padding: 0 8px;
   text-indent: -8px;
 }
+
+.divider {
+  border-bottom: 1px solid gray;
+  margin: 2px 0;
+}
+
+.thick {
+  height: 10px;
+}
+
+.medium {
+  height: 5px;
+}
+
+.thick,
+.medium {
+  background-color: black;
+  border: 0;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
